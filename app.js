@@ -23,12 +23,12 @@ var knoxClient = knox.createClient({
     secret: config.S3Secret,
     bucket: config.S3Bucket
 })
+var server = require('http').createServer(app);
+var io = require('socket.io')(server);
 
 
 require('./routes/routes.js')(express, app, formidable, fs, os, gm, knoxClient, mongoose, io);
 
-var server = require('http').createServer(app);
-var io = require('socket.io')(server);
 
 
 server.listen(app.get('port') , function(){
