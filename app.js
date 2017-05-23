@@ -24,7 +24,7 @@ var knoxClient = knox.createClient({
 })
 
 
-require('./routes/routes.js')(express, app, formidable, fs, os, gm);
+require('./routes/routes.js')(express, app, formidable, fs, os, gm, knoxClient);
 
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
