@@ -3,8 +3,13 @@ module.exports = function (express, app) {
 
     router.get('/', function (req, res, next) {
 
-        res.render('index', {});
+        res.render('index', {host:app.get('host')});
     })
 
+    
+    router.post('/upload', function(req, res, next){
+	// Files upload
+        
+    })
     app.use('/', router);
 }
