@@ -10,4 +10,4 @@ For EC2 instance, I have used CloudFront CDN that works with S3 bucket to ensure
 For Windows user, install node.js on EC2 via Putty (TELNET CLIENT)
 
 
-Appluication is running on http://13.58.72.197/
+Application is running on http://13.58.72.197/
