@@ -1,4 +1,4 @@
-module.exports = function (express, app, formidable, fs, os) {
+module.exports = function (express, app, formidable, fs, os, gm) {
     var router = express.Router();
 
     router.get('/', function (req, res, next) {
