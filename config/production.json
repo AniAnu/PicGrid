@@ -1,3 +1,6 @@
 {
-    "host": "http://localhost:3000"
+    "host": "http://localhost:3000",
+    "S3AccessKey": "Your S3 Access Key",
+    "S3Secret": "Your S3 Secret Key",
+    "S3Bucket": "picsgrid"
 }
