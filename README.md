@@ -1,0 +1,1 @@
+PicGrid is a Pics Gallery Aplication in which each and every picture has a vote counting feature. This application uses Nodejs, Expressjs, Socket.io, MongoLabs etc. Application will be running on Amazon EC2 instance and the photos are stored in Amazon S3 bucket.
