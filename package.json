@@ -1,0 +1,24 @@
+{
+  "name": "picsgrid",
+  "version": "1.0.0",
+  "description": "PicGrid is a Pics Gallery Aplication in which each and every picture has a vote counting feature. This application uses Nodejs, Expressjs, Socket.io, MongoLabs etc. Application will be running on Amazon EC2 instance and the photos are stored in Amazon S3 bucket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AniAnu/PicGrid.git"
+  },
+  "author": "Anmol Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AniAnu/PicGrid/issues"
+  },
+  "homepage": "https://github.com/AniAnu/PicGrid#readme",
+  "dependencies": {
+    "express": "^4.4.3",
+    "hogan-express": "^0.5.2",
+    "socket.io": "^1.0.5"
+  }
+}
